@@ -1,0 +1,40 @@
+{
+  "name": "avro-rest-js",
+  "version": "0.1.0",
+  "description": "Express REST Service with AVRO Serialization",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-server": "nodemon server.js",
+    "start-client-side": "~/.npm-packages/bin/light-server -s . -p 9090 -w 'client-side/**/*.js, client-side/**/*.html'",
+    "build-client-side": "browserify ./client-side/main.js -o ./client-side/bundle.js --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rondinif/avro-rest-js.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "AVRO"
+  ],
+  "author": "rondinif",
+  "license": "BSD 2-Clause",
+  "bugs": {
+    "url": "https://github.com/rondinif/avro-rest-js/issues"
+  },
+  "homepage": "https://github.com/rondinif/avro-rest-js#readme",
+  "devDependencies": {
+    "browserify": "^8.1.3",
+    "light-server": "^2.2.1",
+    "nodemon": "^1.11.0"
+  },
+  "dependencies": {
+    "avsc": "^5.0.5",
+    "axios": "^0.16.2",
+    "body-parser": "^1.15.2",
+    "cors": "^2.8.4",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.2"
+  }
+}
