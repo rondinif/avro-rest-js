@@ -5,17 +5,27 @@ simple lab applying [avsc](https://github.com/mtth/avsc) and learn by doing:
 2. how to call REST API that send and receive avro buffer client side javascript
 
 
-## Install
-### clone the project
+## Getting started
+
+
+### Clone the project
+
 ``` bash
 git clone https://github.com/rondinif/avro-rest-js.git
 ```
-### install dependencies and dev-dependencies
+### Install dependencies and dev-dependencies
+
 ``` bash
 npm install
 ```
 
-## Run and Degug
+## Run and Debug
+In this lab you want to open 3 terminals: 
+ - one for mongodb ( start mongod and run queries in mongo shell )
+ - one to run the sever-side ( classi NodeJS Express REST-API server on port 3000)
+ - one to run the client-side ( html, javascript served on port 9090 )
+
+and 1 browser: hopefully Chrome with DevTools for debugging client-side JS 
 
 ### Start Mongodb
 ``` bash 
