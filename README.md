@@ -71,3 +71,7 @@ light-server is watching these files: client-side/**/*.js, client-side/**/*.html
   when file changes,
   this event will be sent to browser: rel
 ```
+
+
+## Demo Video
+[![AVRO REST API in javascript with AVSC](http://img.youtube.com/vi/DcijFhjJ0Ys/0.jpg)](http://www.youtube.com/watch?v=DcijFhjJ0Ys "AVRO REST API in javascript with AVSC")
