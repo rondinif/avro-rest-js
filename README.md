@@ -4,6 +4,14 @@ simple lab applying [avsc](https://github.com/mtth/avsc) and learn by doing:
 1. how to create a trivial nodejs express REST API server that receive and send avro buffer in request/response
 2. how to call REST API that send and receive avro buffer client side javascript
 
+[![Quality Gate](https://sonarqube.com/api/badges/gate?key=avro-rest-js)](https://sonarqube.com/dashboard/index/avro-rest-js)]
+[![Technical debt ratio](https://sonarqube.com/api/badges/measure?key=avro-rest-js&metric=sqale_debt_ratio)](https://sonarqube.com/dashboard/index/avro-rest-js)]
+[![License](https://img.shields.io/badge/License-BSD%202--Clause-orange.svg)](https://opensource.org/licenses/BSD-2-Clause)
+
+<--
+https://sonarcloud.io/api/badges/measure?key=avro-rest-js&metric=bugs&template=FLAT
+https://sonarcloud.io/api/badges/measure?key=avro-rest-js&metric=lines&template=FLAT
+-->
 
 ## Getting started
 
