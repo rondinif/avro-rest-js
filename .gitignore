@@ -1,3 +1,8 @@
+# Mongo dev and test data
+TODO.md
+node_modules
+data/db
+
 # Logs
 logs
 *.log
