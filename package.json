@@ -1,6 +1,6 @@
 {
   "name": "avro-rest-js",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Express REST Service with AVRO Serialization",
   "main": "server.js",
   "scripts": {
@@ -31,11 +31,11 @@
     "nodemon": "^1.11.0"
   },
   "dependencies": {
-    "avsc": "^5.4.19",
-    "axios": "~> 0.19.2",
+    "avsc": "^5.5.3",
+    "axios": "~> 0.21.1",
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
-    "mongoose": "~> 5.9.7"
+    "mongoose": "~> 5.11.13"
   }
 }
